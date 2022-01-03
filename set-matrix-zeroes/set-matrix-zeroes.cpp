@@ -4,20 +4,28 @@ public:
         if(matrix.size() == 0)
             return;
         
-        vector<pair<int,int>> zeros;
+        int n=matrix[0].size(),m=matrix.size();
+        vector<int> col(n,1),row(m,1);
         for(int i=0;i<matrix.size();i++){
-            for(int j=0;j<matrix[i].size();j++){
+            for(int j=0;j<matrix[0].size();j++){
                 if(matrix[i][j] == 0){
-                    zeros.push_back({i,j});
+                    row[i]=0;
+                    col[j]=0;
                 }
             }
         }
-        for(auto &p:zeros){
-            for(int i=0;i<matrix.size();i++){
-                matrix[i][p.second]=0;
+        for(int i=0;i<matrix[0].size();i++){
+            if(col[i] == 0){
+                for(int j=0;j<matrix.size();j++){
+                    matrix[j][i]=0;
+                }
             }
-            for(int i=0;i<matrix[0].size();i++){
-                matrix[p.first][i]=0;
+        }
+        for(int i=0;i<matrix.size();i++){
+            if(row[i] == 0){
+                for(int j=0;j<matrix[0].size();j++){
+                    matrix[i][j]=0;
+                }
             }
         }
     }
