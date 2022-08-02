@@ -24,8 +24,11 @@ public:
     
     void put(int key, int value) {
         int i=hash(key);
-        remove(key);
-        hm[i].push_back({key,value});
+        list<pair<int,int>>::iterator it=search(key);
+        if(it != hm[i].end())
+            it->second=value;
+        else
+            hm[i].push_back({key,value});
     }
     
     int get(int key) {
