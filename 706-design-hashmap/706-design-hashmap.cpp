@@ -30,12 +30,9 @@ public:
     
     int get(int key) {
         int i=hash(key);
-        list<pair<int,int>>::iterator it=hm[i].begin();
-        while(it != hm[i].end()){
-            if(it->first == key)
-                return it->second;
-            it++;
-        }
+        list<pair<int,int>>::iterator it=search(key);
+        if(it != hm[i].end())
+            return it->second;
         return -1;
     }
     
