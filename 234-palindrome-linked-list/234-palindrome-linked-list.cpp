@@ -10,22 +10,45 @@
  */
 class Solution {
 public:
-    bool isPalindrome(ListNode* head) {
-        ListNode* temp=head;
-        string s="";
-        while(temp != NULL){
-            s.push_back(temp->val);
-            temp=temp->next;
+    ListNode* reverse(ListNode* head){
+        ListNode* b=NULL,*c=head,*f=head->next;
+        while(c != NULL){
+            c->next=b;
+            b=c;
+            c=f;
+            if(f != NULL)
+                f=f->next;
         }
-        int i=0,j=s.size()-1;
+        return b;
+    }
+    
+    ListNode* middleNode(ListNode *head){
+        ListNode* f=head,*s=head;
+        while(f != NULL && f->next != NULL && f->next->next != NULL){
+            f=f->next->next;
+            s=s->next;
+        }
+        return s;
+    }
+    
+    bool isPalindrome(ListNode* head) {
+        if(head == NULL || head->next == NULL)
+            return true;
+        ListNode* m=middleNode(head);
+        m->next=reverse(m->next);
+        m=m->next;
         bool f=false;
-        while(j >= i){
-            if(s[j] == s[i])
+        ListNode* temp=head;
+        while(m != NULL){
+            if(temp->val == m->val){
                 f=true;
-            else
-                {f=false;break;}
-            j--;
-            i++;
+            }
+            else{
+                f=false;
+                break;
+            }
+            m=m->next;
+            temp=temp->next;
         }
         return f;
     }
