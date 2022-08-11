@@ -17,31 +17,39 @@ public:
         }
         return true;
     }
-    bool sudokuSolve(vector<vector<char>>& board){
-        for(int i=0;i<board.size();i++)
+    bool sudokuSolve(vector<vector<char>>& board,int row,int col){
+        if(row == board.size())
+            return true;
+        
+        int nr,nc;
+        if(col == board.size()-1){
+            nr=row+1;
+            nc=0;
+        }
+        else{
+            nr=row;
+            nc=col+1;
+        }
+        
+        if(board[row][col] != '.')
+            return sudokuSolve(board,nr,nc);
+        else
         {
-            for(int j=0;j<board[i].size();j++)
+            for(char no='1';no<='9';no++)
             {
-                if(board[i][j] == '.')
+                if(can_put(board,row,col,no) == true)
                 {
-                    for(char no='1';no<='9';no++)
-                    {
-                        if(can_put(board,i,j,no))
-                        {
-                            board[i][j]=no;
-                            if(sudokuSolve(board))
-                                return true;
-                            else
-                                board[i][j]='.';
-                        }
-                    }
-                    return false;
-                }
+                    board[row][col]=no;
+                    if(sudokuSolve(board,nr,nc))
+                        return true;
+                    else
+                        board[row][col]='.';
+                } 
             }
         }
-        return true;
+        return false;
     }
     void solveSudoku(vector<vector<char>>& board) {
-        sudokuSolve(board);
+        sudokuSolve(board,0,0);
     }
 };
