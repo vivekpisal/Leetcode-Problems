@@ -23,10 +23,11 @@ public:
                 s.erase(0,j+1);
                 paliPartition(s,atn,ans);
                 atn.pop_back();
-                s=sub+s;
+                s.insert(0,sub);
             }
         }
     }
+    
     vector<vector<string>> partition(string s) {
         vector<vector<string>> ans;
         vector<string> atn;
