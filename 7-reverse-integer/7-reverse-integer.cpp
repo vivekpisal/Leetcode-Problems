@@ -14,7 +14,7 @@ public:
         while(x != 0){
             int last_no=x%10;
             x=x/10;
-            rev_no=rev_no + last_no * pow(10,--l);
+            rev_no=rev_no * 10 + last_no;
         }
         if(rev_no > INT_MAX || rev_no < INT_MIN)
             return 0;
