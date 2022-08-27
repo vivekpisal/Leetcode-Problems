@@ -5,6 +5,7 @@ public:
         if(x < 0){
             neg=true;
         }
+        
         string s=to_string(x);
         int l=s.size();
         if(neg == true)
@@ -15,10 +16,9 @@ public:
             x=x/10;
             rev_no=rev_no + last_no * pow(10,--l);
         }
-        if(rev_no > pow(2,31)-1 || rev_no < -pow(2,31))
+        if(rev_no > INT_MAX || rev_no < INT_MIN)
             return 0;
         
-       
         return rev_no;
     }
 };
