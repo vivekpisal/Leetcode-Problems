@@ -1,15 +1,6 @@
 class Solution {
 public:
     int reverse(int x) {
-        bool neg=false;
-        if(x < 0){
-            neg=true;
-        }
-        
-        string s=to_string(x);
-        int l=s.size();
-        if(neg == true)
-            l--;
         long rev_no=0;
         while(x != 0){
             int last_no=x%10;
