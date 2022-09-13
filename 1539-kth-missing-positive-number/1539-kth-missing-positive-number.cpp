@@ -1,19 +1,15 @@
 class Solution {
 public:
-    int findKthPositive(vector<int>& arr, int k) {
-        unordered_map<int,int> mp;
-        for(int i:arr){
-            if(mp.find(i) != mp.end())
-                mp[i]++;
+    int findKthPositive(vector<int>& arr, int k) {        
+        int low=0,high=arr.size()-1;
+        while(low <= high){
+            int mid=(low + high)/2;
+            if(arr[mid] - (mid+1) < k){
+                low=mid+1;
+            }
             else
-                mp[i]=1;
+                high=mid-1;
         }
-        int missing=0;
-        while(k){
-            missing++;
-            if(mp.find(missing) == mp.end())
-            {k--;}
-        }
-        return missing;
+        return low+k;
     }
 };
