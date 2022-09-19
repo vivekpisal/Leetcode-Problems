@@ -1,28 +1,26 @@
 class Solution {
 public:
-    
-    void Csum2(vector<int> arr,int tar,vector<int>ds,vector<vector<int>>& ans,int i){
-            if(tar == 0){
-                ans.push_back(ds);
-            }
+    void csum2(vector<int>&candidates,vector<vector<int>>& ans,vector<int> &asf,int target,int currInd){
+        if(target == 0)
+            ans.push_back(asf);
         
-        for(int j=i;j<arr.size();j++){
-            if(arr[j] > tar) break;
-            if(j>i && arr[j] == arr[j-1]) continue;
+        
+        for(int i=currInd;i<candidates.size();i++){
+            if(i != currInd && candidates[i-1] == candidates[i])
+                continue;
             
-            ds.push_back(arr[j]);
-            Csum2(arr,tar-arr[j],ds,ans,j+1);
-            ds.pop_back();
+            if(target >= candidates[i]){
+                asf.push_back(candidates[i]);
+                csum2(candidates,ans,asf,target-candidates[i],i+1);
+                asf.pop_back();
+            }
         }
     }
-    
-    
     vector<vector<int>> combinationSum2(vector<int>& candidates, int target) {
-        
-        sort(candidates.begin(),candidates.end());
-        vector<int> ds;
         vector<vector<int>> ans;
-        Csum2(candidates,target,ds,ans,0);
+        vector<int> asf;
+        sort(candidates.begin(),candidates.end());
+        csum2(candidates,ans,asf,target,0);
         return ans;
     }
 };
