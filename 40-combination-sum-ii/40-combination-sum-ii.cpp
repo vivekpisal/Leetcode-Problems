@@ -6,6 +6,9 @@ public:
         
         
         for(int i=currInd;i<candidates.size();i++){
+            if(candidates[i] > target)
+                break;
+            
             if(i != currInd && candidates[i-1] == candidates[i])
                 continue;
             
