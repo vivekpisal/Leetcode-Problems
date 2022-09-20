@@ -1,24 +1,24 @@
 class Solution {
 public:
-    void subset2(vector<int> &nums,vector<int> asf,int i,set<vector<int>> &uniqueAns){
-        if(i == nums.size()){
-            sort(asf.begin(),asf.end());
-            uniqueAns.insert(asf);
+    void subset2(vector<int>& nums,vector<vector<int>>& ans,vector<int>&asf,int i){
+        ans.push_back(asf);
+        if(i == nums.size())
             return;
-        }
         
-        asf.push_back(nums[i]);
-        subset2(nums,asf,i+1,uniqueAns);
-        asf.pop_back();
-        subset2(nums,asf,i+1,uniqueAns);  
+        for(int j=i;j<nums.size();j++){
+            if(j != i && nums[j] == nums[j-1])
+                continue;
+            
+            asf.push_back(nums[j]);
+            subset2(nums,ans,asf,j+1);
+            asf.pop_back();
+        }
     }
     vector<vector<int>> subsetsWithDup(vector<int>& nums) {
-        vector<int> asf;
-        set<vector<int>> uniqueAns;
-        subset2(nums,asf,0,uniqueAns);
         vector<vector<int>> ans;
-        for(auto &i:uniqueAns)
-            ans.push_back(i);
+        vector<int> asf;
+        sort(nums.begin(),nums.end());
+        subset2(nums,ans,asf,0);
         return ans;
     }
 };
