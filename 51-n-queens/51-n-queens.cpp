@@ -1,52 +1,47 @@
 class Solution {
 public:
-    bool isSafe(int row,int col,vector<string>&board,int n){
-        int j=col;
-        while(j >= 0){
-            if(board[row][j] == 'Q')
-                return false;
-            j--;
-        }
-        int i=row;
-        j=col;
-        while(i < n && j >= 0){
+    bool isSafe(vector<string> &board,int row,int col){
+        int i=row,j=col;
+        while(i >= 0){
             if(board[i][j] == 'Q')
                 return false;
-            i++;
-            j--;
+            i--;
         }
         i=row;
-        j=col;
         while(i >= 0 && j >= 0){
             if(board[i][j] == 'Q')
                 return false;
             i--;
             j--;
         }
+        i=row,j=col;
+        while(i >= 0  && j <= board[0].size()){
+            if(board[i][j] == 'Q')
+                return false;
+            i--;
+            j++;
+        }
         return true;
     }
-    void n_queen(vector<string> &board,vector<vector<string>>& ans,int col,int n){
-        if(col == n){
-            ans.push_back(board);
+    void nqueen(vector<vector<string>> &nQueen,vector<string>& board,int i,int n){
+        if(i == n){
+            nQueen.push_back(board);
             return;
         }
         
-        for(int row=0;row<n;row++){
-            if(isSafe(row,col,board,n)){
-                board[row][col]='Q';
-                n_queen(board,ans,col+1,n);
-                board[row][col]='.';
+        for(int col=0;col<board.size();col++){
+            if(isSafe(board,i,col)){
+                board[i][col]='Q';
+                nqueen(nQueen,board,i+1,n);
+                board[i][col]='.';
             }
         }
     }
     vector<vector<string>> solveNQueens(int n) {
-        vector<vector<string>> ans;
-        vector<string> board(n);
+        vector<vector<string>> nQueen;
         string str(n,'.');
-        for(int i=0;i<n;i++){
-            board[i]=str;
-        }
-        n_queen(board,ans,0,n);
-        return ans;
+        vector<string> board(n,str);
+        nqueen(nQueen,board,0,n);
+        return nQueen;
     }
 };
