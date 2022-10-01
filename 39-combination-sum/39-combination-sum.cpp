@@ -1,7 +1,7 @@
 class Solution {
 public:
-    vector<vector<int>> ans;
-    void Csum(vector<int>& arr,vector<int>& ds,int tar,int i){        
+    
+    void Csum(vector<int>& arr,vector<vector<int>>& ans,vector<int>& ds,int tar,int i){        
         if(i == arr.size()){
             if(0 == tar){
                 ans.push_back(ds);
@@ -11,16 +11,16 @@ public:
         
         if(tar >= arr[i]){
             ds.push_back(arr[i]);
-            Csum(arr,ds,tar-arr[i],i);
+            Csum(arr,ans,ds,tar-arr[i],i);
             ds.pop_back();
         }
         
-        Csum(arr,ds,tar,i+1);
+        Csum(arr,ans,ds,tar,i+1);
     }
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
-        
+        vector<vector<int>> ans;
         vector<int> ds;
-        Csum(candidates,ds,target,0);
+        Csum(candidates,ans,ds,target,0);
         return ans;
     }
 };
