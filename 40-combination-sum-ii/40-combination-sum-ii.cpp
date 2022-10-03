@@ -1,29 +1,26 @@
 class Solution {
 public:
-    void csum2(vector<int>&candidates,vector<vector<int>>& ans,vector<int> &asf,int target,int currInd){
-        if(target == 0)
-            ans.push_back(asf);
+    void uniqueComb(vector<vector<int>> &ans,vector<int> arr,vector<int>& ds,int tar,int i){
+        if(tar == 0){
+            ans.push_back(ds);
+            return;
+        }
+        if(i == arr.size()) return;
         
-        
-        for(int i=currInd;i<candidates.size();i++){
-            if(candidates[i] > target)
-                break;
+        for(int ind=i;ind<arr.size();ind++){
+            if(arr[i] > tar) break;
+            if(ind != i && arr[ind] == arr[ind-1]) continue;
+            ds.push_back(arr[ind]);
+            uniqueComb(ans,arr,ds,tar-arr[ind],ind+1);
+            ds.pop_back();
             
-            if(i != currInd && candidates[i-1] == candidates[i])
-                continue;
-            
-            if(target >= candidates[i]){
-                asf.push_back(candidates[i]);
-                csum2(candidates,ans,asf,target-candidates[i],i+1);
-                asf.pop_back();
-            }
         }
     }
     vector<vector<int>> combinationSum2(vector<int>& candidates, int target) {
+        vector<int> ds;
         vector<vector<int>> ans;
-        vector<int> asf;
         sort(candidates.begin(),candidates.end());
-        csum2(candidates,ans,asf,target,0);
+        uniqueComb(ans,candidates,ds,target,0);
         return ans;
     }
 };
