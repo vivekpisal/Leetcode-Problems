@@ -9,11 +9,11 @@ public:
         
         for(int ind=i;ind<arr.size();ind++){
             if(arr[i] > tar) break;
-            if(ind != i && arr[ind] == arr[ind-1]) continue;
-            ds.push_back(arr[ind]);
-            uniqueComb(ans,arr,ds,tar-arr[ind],ind+1);
-            ds.pop_back();
-            
+            if(ind == i || ind > i && arr[ind] != arr[ind-1]){
+                ds.push_back(arr[ind]);
+                uniqueComb(ans,arr,ds,tar-arr[ind],ind+1);
+                ds.pop_back();
+            } 
         }
     }
     vector<vector<int>> combinationSum2(vector<int>& candidates, int target) {
