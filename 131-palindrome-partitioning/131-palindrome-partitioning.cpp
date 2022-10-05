@@ -1,35 +1,33 @@
 class Solution {
 public:
-    bool check_pali(string s){
-        int i=0,j=s.size()-1;
-        while(j >= i){
-            if(s[i++] != s[j--]){
+    bool checkPali(string str,int i,int j){
+        while(i < j){
+            if(str[i] != str[j])
                 return false;
-            }
+            i++;
+            j--;
         }
         return true;
     }
-    void paliPartition(string s,vector<string>& atn,vector<vector<string>>& ans,int brkstr)
-    {
-        if(s.size() == brkstr){
-            ans.push_back(atn);
+    
+    void makePartition(string s,vector<vector<string>>& ans,vector<string>& ds,int i){
+        if(i == s.size()){
+            ans.push_back(ds);
             return;
         }
         
-        for(int j=brkstr;j<s.size();j++){
-            string sub=s.substr(brkstr,j - brkstr+1);
-            if(check_pali(sub)){
-                atn.push_back(sub);
-                paliPartition(s,atn,ans,j+1);
-                atn.pop_back();
+        for(int j=i;j<s.size();j++){
+            if(checkPali(s,i,j)){
+                ds.push_back(s.substr(i,j-i+1));
+                makePartition(s,ans,ds,j+1);
+                ds.pop_back();
             }
         }
     }
-    
     vector<vector<string>> partition(string s) {
+        vector<string> ds;
         vector<vector<string>> ans;
-        vector<string> atn;
-        paliPartition(s,atn,ans,0);
+        makePartition(s,ans,ds,0);
         return ans;
     }
 };
