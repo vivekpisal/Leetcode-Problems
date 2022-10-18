@@ -2,23 +2,24 @@
 class Solution {
 public:
     void setZeroes(vector<vector<int>>& matrix) {
-        queue<pair<int,int>> q;
+        bool col=false;
         for(int i=0;i<matrix.size();i++){
-            for(int j=0;j<matrix[i].size();j++){
-                if(matrix[i][j] == 0)
-                    q.push({i,j});
+            if(matrix[i][0] == 0) col=true;
+            
+            for(int j=1;j<matrix[i].size();j++){
+                if(matrix[i][j] == 0){
+                    matrix[i][0]=0;
+                    matrix[0][j]=0;
+                }
             }
         }
-        while(!q.empty()){
-            int row=q.front().first;
-            int col=q.front().second;
-            q.pop();
-            for(int coli=0;coli<matrix[0].size();coli++){
-                matrix[row][coli]=0;
+        for(int i=matrix.size()-1;i>=0;i--){
+            for(int j=matrix[0].size()-1;j>=1;j--){
+                if(matrix[0][j] == 0 || matrix[i][0] == 0)
+                    matrix[i][j]=0;
             }
-            for(int rowi=0;rowi<matrix.size();rowi++){
-                matrix[rowi][col]=0;
-            }
+            if(col == true)
+                matrix[i][0]=0;
         }
     }
 };
