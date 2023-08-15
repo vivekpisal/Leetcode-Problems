@@ -20,16 +20,13 @@ class Solution {
             }else if(word.charAt(0) == word.charAt(1)){
                 if(map.containsKey(word)){
                 if(map.get(word)%2 == 0){
-                    cnt=map.get(word);
-                    len+=cnt*2;
+                    len+=map.get(word)*2;
                 }else{
                     if(flag == false){
-                        cnt=map.get(word);
-                        len+=cnt*2;
+                        len+=map.get(word)*2;
                         flag=true;
                     }else{
-                        cnt=map.get(word)-1;
-                        len+=cnt*2;
+                        len+=(map.get(word)-1)*2;
                     }
                 }
                 map.remove(word);}
