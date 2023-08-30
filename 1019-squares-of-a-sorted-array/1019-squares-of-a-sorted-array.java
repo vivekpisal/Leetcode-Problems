@@ -4,8 +4,8 @@ class Solution {
         int ans[]=new int[j+1];
         int poi = j;
         while(i <= j){
-            int sq1 = nums[i] * nums[i];
-            int sq2 = nums[j] * nums[j];
+            int sq1 = nums[i]*nums[i];
+            int sq2 = nums[j]*nums[j];
             if(sq1 > sq2){
                 ans[poi]=sq1;
                 i++;
