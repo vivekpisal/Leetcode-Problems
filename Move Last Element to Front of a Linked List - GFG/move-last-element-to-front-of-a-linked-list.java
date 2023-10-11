@@ -89,7 +89,6 @@ class Solution {
         }
         Node t=temp.next;
         temp.next=null;
-        //Node headEle = head;
         t.next=head;
         head=t;
         return head;
