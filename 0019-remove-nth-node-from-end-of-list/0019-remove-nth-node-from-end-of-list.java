@@ -10,20 +10,18 @@
  */
 class Solution {
     public ListNode removeNthFromEnd(ListNode head, int n) {
-        Map<Integer,ListNode> map = new HashMap<>();
-        ListNode temp = head;
-        int cnt=0;
-        while(temp != null){
-            cnt++;
-            map.put(cnt,temp);
-            temp=temp.next;
+        if(head == null) return head;
+        ListNode dummy=new ListNode(0);
+        dummy.next=head;
+        ListNode slow=dummy,fast=dummy;
+        while(n-- != 0){
+            fast=fast.next;
         }
-        if(cnt == 1) return null;
-        ListNode beforeDeleteEle=map.get(cnt-n);
-        ListNode deleteEle=map.get(cnt-n+1);
-        if(cnt != n)
-            beforeDeleteEle.next=deleteEle.next;
-        else head=deleteEle.next;
-        return head;
+        while(fast.next != null){
+            fast=fast.next;
+            slow=slow.next;
+        }
+        slow.next=slow.next.next;
+        return dummy.next;
     }
 }
