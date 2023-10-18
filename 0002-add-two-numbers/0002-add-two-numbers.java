@@ -9,17 +9,6 @@
  * }
  */
 class Solution {
-    public static ListNode reverse(ListNode head){
-        if(head == null || head.next == null) return head;
-        ListNode prev=null,curr=head,next=head;
-        while(curr != null){
-            next=next.next;
-            curr.next=prev;
-            prev=curr;
-            curr=next;
-        }
-        return prev;
-    }
     public static ListNode addList(ListNode l1,ListNode l2){
         ListNode ans=null;
         ListNode poi1=l1,poi3=ans;
