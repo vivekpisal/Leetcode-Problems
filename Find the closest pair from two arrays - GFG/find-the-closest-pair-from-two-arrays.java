@@ -48,31 +48,28 @@ class GFG {
 //User function Template for Java
 
 class Solution{
-    
+    // Function for finding maximum and value pair
     public static ArrayList<Integer> printClosest (int arr[], int brr[], int n, int m, int x) {
-        int close = Integer.MAX_VALUE;
-        ArrayList<Integer> ans = new ArrayList<>();
-        ans.add(-1);
-        ans.add(-1);
-        int i=0,j=m-1;
+        ArrayList<Integer> closest = new ArrayList<>();
+        closest.add(0);
+        closest.add(0);
+        int i=0,j=brr.length-1;
+        int minDiff=Integer.MAX_VALUE;
         while(i < n && j >= 0){
-            int sum = arr[i] + brr[j];
-            if(sum > x){
-                if(sum - x < close){
-                    ans.set(0,arr[i]);
-                    ans.set(1,brr[j]);
-                    close=sum-x;
-                }
+            int sum=arr[i]+brr[j];
+            int diff = Math.abs(x-sum);
+            if(diff < minDiff){
+                minDiff=diff;
+                closest.set(0,arr[i]);
+                closest.set(1,brr[j]);
+            }
+            
+            if(sum >= x){
                 j--;
             }else{
-                if(x-sum < close){
-                    ans.set(0,arr[i]);
-                    ans.set(1,brr[j]);
-                    close=x-sum;
-                }
                 i++;
             }
         }
-        return ans;
+        return closest;
     }
 }
