@@ -19,6 +19,7 @@
 | ------- |
 | [0200-number-of-islands](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0200-number-of-islands) |
 | [0303-range-sum-query-immutable](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0303-range-sum-query-immutable) |
+| [0525-contiguous-array](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0525-contiguous-array) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -39,4 +40,9 @@
 |  |
 | ------- |
 | [0303-range-sum-query-immutable](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0303-range-sum-query-immutable) |
+| [0525-contiguous-array](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0525-contiguous-array) |
+## Hash Table
+|  |
+| ------- |
+| [0525-contiguous-array](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0525-contiguous-array) |
 <!---LeetCode Topics End-->
