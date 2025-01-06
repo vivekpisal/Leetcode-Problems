@@ -18,6 +18,7 @@
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0200-number-of-islands) |
+| [0303-range-sum-query-immutable](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0303-range-sum-query-immutable) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -30,4 +31,12 @@
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0200-number-of-islands) |
+## Design
+|  |
+| ------- |
+| [0303-range-sum-query-immutable](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0303-range-sum-query-immutable) |
+## Prefix Sum
+|  |
+| ------- |
+| [0303-range-sum-query-immutable](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0303-range-sum-query-immutable) |
 <!---LeetCode Topics End-->
