@@ -17,6 +17,7 @@
 ## Array
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0053-maximum-subarray) |
 | [0200-number-of-islands](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0200-number-of-islands) |
 | [0303-range-sum-query-immutable](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0303-range-sum-query-immutable) |
 | [0496-next-greater-element-i](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0496-next-greater-element-i) |
@@ -61,4 +62,12 @@
 | ------- |
 | [0496-next-greater-element-i](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0496-next-greater-element-i) |
 | [0739-daily-temperatures](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0739-daily-temperatures) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0053-maximum-subarray](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0053-maximum-subarray) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0053-maximum-subarray](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0053-maximum-subarray) |
 <!---LeetCode Topics End-->
