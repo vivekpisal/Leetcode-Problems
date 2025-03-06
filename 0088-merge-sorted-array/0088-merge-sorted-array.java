@@ -4,26 +4,26 @@ class Solution {
         int i=0,j=0,k=0;
         while(i < m && j < n){
             if(nums1[i] > nums2[j]){
-                temp[k]=nums2[j];
+                temp[k] = nums2[j];
                 j++;
             }else{
-                temp[k]=nums1[i];
+                temp[k] = nums1[i];
                 i++;
             }
             k++;
         }
         while(i < m){
-            temp[k]=nums1[i];
-            i++;k++;
+            temp[k] = nums1[i];
+            i++;
+            k++;
         }
         while(j < n){
-            temp[k]=nums2[j];
-            k++;j++;
+            temp[k] = nums2[j];
+            j++;
+            k++; 
         }
-        i=0;
-        while(i < m+n){
-            nums1[i]=temp[i];
-            i++;
+        for(int poi=0;poi<m+n;poi++){
+            nums1[poi]=temp[poi];
         }
     }
 }
