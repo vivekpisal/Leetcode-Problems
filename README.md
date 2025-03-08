@@ -23,6 +23,7 @@
 | [0088-merge-sorted-array](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0088-merge-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0200-number-of-islands](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0200-number-of-islands) |
+| [0287-find-the-duplicate-number](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0287-find-the-duplicate-number) |
 | [0303-range-sum-query-immutable](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0303-range-sum-query-immutable) |
 | [0496-next-greater-element-i](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0496-next-greater-element-i) |
 | [0525-contiguous-array](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0525-contiguous-array) |
@@ -81,6 +82,7 @@
 | ------- |
 | [0075-sort-colors](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0088-merge-sorted-array) |
+| [0287-find-the-duplicate-number](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0287-find-the-duplicate-number) |
 ## Sorting
 |  |
 | ------- |
@@ -90,4 +92,12 @@
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0048-rotate-image) |
+## Binary Search
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0287-find-the-duplicate-number) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0287-find-the-duplicate-number) |
 <!---LeetCode Topics End-->
