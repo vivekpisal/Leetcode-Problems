@@ -24,6 +24,7 @@
 | [0075-sort-colors](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0088-merge-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0128-longest-consecutive-sequence](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0128-longest-consecutive-sequence) |
 | [0169-majority-element](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0169-majority-element) |
 | [0200-number-of-islands](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0200-number-of-islands) |
 | [0287-find-the-duplicate-number](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0287-find-the-duplicate-number) |
@@ -39,6 +40,7 @@
 ## Union Find
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0200-number-of-islands) |
 ## Matrix
 |  |
@@ -61,6 +63,7 @@
 | ------- |
 | [0001-two-sum](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0128-longest-consecutive-sequence](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0128-longest-consecutive-sequence) |
 | [0169-majority-element](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0169-majority-element) |
 | [0496-next-greater-element-i](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0496-next-greater-element-i) |
 | [0525-contiguous-array](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0525-contiguous-array) |
