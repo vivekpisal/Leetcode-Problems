@@ -17,6 +17,7 @@
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0001-two-sum) |
 | [0048-rotate-image](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0053-maximum-subarray) |
 | [0074-search-a-2d-matrix](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0074-search-a-2d-matrix) |
@@ -58,6 +59,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0001-two-sum) |
 | [0169-majority-element](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0169-majority-element) |
 | [0496-next-greater-element-i](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0496-next-greater-element-i) |
 | [0525-contiguous-array](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0525-contiguous-array) |
