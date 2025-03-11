@@ -31,6 +31,7 @@
 | [0303-range-sum-query-immutable](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0303-range-sum-query-immutable) |
 | [0496-next-greater-element-i](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0496-next-greater-element-i) |
 | [0525-contiguous-array](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0525-contiguous-array) |
+| [0540-single-element-in-a-sorted-array](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0540-single-element-in-a-sorted-array) |
 | [0560-subarray-sum-equals-k](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0560-subarray-sum-equals-k) |
 | [0739-daily-temperatures](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0739-daily-temperatures) |
 ## Depth-First Search
@@ -109,6 +110,7 @@
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0074-search-a-2d-matrix) |
 | [0287-find-the-duplicate-number](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0287-find-the-duplicate-number) |
+| [0540-single-element-in-a-sorted-array](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0540-single-element-in-a-sorted-array) |
 ## Bit Manipulation
 |  |
 | ------- |
