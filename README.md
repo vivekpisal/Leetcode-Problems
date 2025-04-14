@@ -34,6 +34,7 @@
 | [0525-contiguous-array](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0525-contiguous-array) |
 | [0540-single-element-in-a-sorted-array](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0540-single-element-in-a-sorted-array) |
 | [0560-subarray-sum-equals-k](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0560-subarray-sum-equals-k) |
+| [0643-maximum-average-subarray-i](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0643-maximum-average-subarray-i) |
 | [0739-daily-temperatures](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0739-daily-temperatures) |
 ## Depth-First Search
 |  |
@@ -129,4 +130,5 @@
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0643-maximum-average-subarray-i](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0643-maximum-average-subarray-i) |
 <!---LeetCode Topics End-->
