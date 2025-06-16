@@ -32,6 +32,7 @@
 | [0209-minimum-size-subarray-sum](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0209-minimum-size-subarray-sum) |
 | [0229-majority-element-ii](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0268-missing-number) |
+| [0283-move-zeroes](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0287-find-the-duplicate-number) |
 | [0303-range-sum-query-immutable](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0303-range-sum-query-immutable) |
 | [0496-next-greater-element-i](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0496-next-greater-element-i) |
@@ -106,6 +107,7 @@
 | [0015-3sum](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0015-3sum) |
 | [0075-sort-colors](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0088-merge-sorted-array) |
+| [0283-move-zeroes](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0287-find-the-duplicate-number) |
 ## Sorting
 |  |
