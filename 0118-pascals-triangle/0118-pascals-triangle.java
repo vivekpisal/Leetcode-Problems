@@ -1,16 +1,17 @@
 class Solution {
     public List<List<Integer>> generate(int numRows) {
-        List<List<Integer>> pascalTri = new ArrayList<>();
-        pascalTri.add(List.of(1));
-        for(int i=1;i<numRows;i++){
-            List<Integer> list = new ArrayList<>();
-            list.add(1);
-            for(int j=1;j<i;j++){
-                list.add(pascalTri.get(i-1).get(j-1)+pascalTri.get(i-1).get(j));
+        List<List<Integer>> pascal = new ArrayList<>();
+        pascal.add(List.of(1));
+        for(int i=2;i<=numRows;i++){
+            List<Integer> nextRow = new ArrayList<>();
+            nextRow.add(1);
+            int lastRow = pascal.size()-1;
+            for(int j=0;j<pascal.get(lastRow).size()-1;j++){
+                nextRow.add(pascal.get(lastRow).get(j) + pascal.get(lastRow).get(j+1));
             }
-            list.add(1);
-            pascalTri.add(list);
+            nextRow.add(1);
+            pascal.add(nextRow);
         }
-        return pascalTri;
+        return pascal;
     }
 }
