@@ -130,6 +130,7 @@
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0002-add-two-numbers) |
 | [0048-rotate-image](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0048-rotate-image) |
 | [0189-rotate-array](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0268-missing-number) |
@@ -179,6 +180,7 @@
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0002-add-two-numbers) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0021-merge-two-sorted-lists](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0021-merge-two-sorted-lists) |
 | [0206-reverse-linked-list](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0206-reverse-linked-list) |
@@ -186,6 +188,7 @@
 ## Recursion
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0021-merge-two-sorted-lists) |
 | [0206-reverse-linked-list](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0206-reverse-linked-list) |
 <!---LeetCode Topics End-->
