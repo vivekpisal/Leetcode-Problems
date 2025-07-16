@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/intersection-of-two-linked-lists/">160. Intersection of Two Linked Lists</a></h2><h3>Easy</h3><hr><p>Given the heads of two singly linked-lists <code>headA</code> and <code>headB</code>, return <em>the node at which the two lists intersect</em>. If the two linked lists have no intersection at all, return <code>null</code>.</p>
+<h2><a href="https://leetcode.com/problems/intersection-of-two-linked-lists">160. Intersection of Two Linked Lists</a></h2><h3>Easy</h3><hr><p>Given the heads of two singly linked-lists <code>headA</code> and <code>headB</code>, return <em>the node at which the two lists intersect</em>. If the two linked lists have no intersection at all, return <code>null</code>.</p>
 
 <p>For example, the following two linked lists begin to intersect at node <code>c1</code>:</p>
 <img alt="" src="https://assets.leetcode.com/uploads/2021/03/05/160_statement.png" style="width: 500px; height: 162px;" />
@@ -57,8 +57,8 @@ Explanation: The two lists do not intersect, so return null.
 	<li>The number of nodes of <code>listB</code> is in the <code>n</code>.</li>
 	<li><code>1 &lt;= m, n &lt;= 3 * 10<sup>4</sup></code></li>
 	<li><code>1 &lt;= Node.val &lt;= 10<sup>5</sup></code></li>
-	<li><code>0 &lt;= skipA &lt;&nbsp;m</code></li>
-	<li><code>0 &lt;= skipB &lt;&nbsp;n</code></li>
+	<li><code>0 &lt;= skipA &lt;= m</code></li>
+	<li><code>0 &lt;= skipB &lt;= n</code></li>
 	<li><code>intersectVal</code> is <code>0</code> if <code>listA</code> and <code>listB</code> do not intersect.</li>
 	<li><code>intersectVal == listA[skipA] == listB[skipB]</code> if <code>listA</code> and <code>listB</code> intersect.</li>
 </ul>
