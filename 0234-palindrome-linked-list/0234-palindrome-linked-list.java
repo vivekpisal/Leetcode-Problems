@@ -29,10 +29,11 @@ class Solution {
             slow = slow.next;
         }
         if(fast != null)
-            fast = slow.next;
+            slow = slow.next;
 
         fast = head;
         slow = reverse(slow);
+
         while(slow != null){
             if(slow.val != fast.val)
                 return false;
