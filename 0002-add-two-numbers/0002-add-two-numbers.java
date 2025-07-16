@@ -9,59 +9,21 @@
  * }
  */
 class Solution {
-    public static ListNode addList(ListNode l1,ListNode l2){
-        ListNode ans=null;
-        ListNode poi1=l1,poi3=ans;
-        ListNode poi2=l2;
-        int carry=0;
-        while(poi1 != null && poi2 != null){
-            int val = poi1.val + poi2.val + carry;
-            carry=0;
-            if(val >= 10){
-                carry=val/10;
-                val = val%10;
-                
-            }
-            if(poi3 == null){
-                ans=new ListNode(val);
-                poi3=ans;
-            }else{
-                poi3.next=new ListNode(val);
-                poi3=poi3.next;
-            }
-            poi1=poi1.next;
-            poi2=poi2.next;
-        }
-        while(poi1 != null){
-            int val = poi1.val + carry;
-            carry=0;
-            if(val >= 10){
-                carry=val/10;
-                val = val%10;
-            }
-            poi3.next=new ListNode(val);
-            poi3=poi3.next;
-            poi1=poi1.next;
-        }
-        while(poi2 != null){
-            int val =  poi2.val + carry;
-            carry=0;
-            if(val >= 10){
-                carry=val/10;
-                val = val%10;
-            }
-            poi3.next=new ListNode(val);
-            poi3=poi3.next;
-            poi2=poi2.next;
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        ListNode sumPointer = new ListNode(0),temp = sumPointer;
+        int carry = 0,sum=0;
+        while(l1 != null || l2 != null){
+            sum = (l1 != null ? l1.val : 0) + (l2 != null ? l2.val : 0) + carry;
+            carry = sum / 10;
+            sum = sum % 10;
+            temp.next = new ListNode(sum,null);
+            temp = temp.next;
+            l1 = l1 != null ? l1.next : l1;
+            l2 = l2 != null ? l2.next : l2;
         }
         if(carry != 0){
-            poi3.next=new ListNode(carry);
-            poi3=poi3.next;
+            temp.next = new ListNode(carry,null);
         }
-        return ans;
-    }
-    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        ListNode ans = addList(l1,l2);
-        return ans;
+        return sumPointer.next;
     }
 }
