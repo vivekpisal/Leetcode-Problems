@@ -25,6 +25,7 @@
 | [0074-search-a-2d-matrix](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0088-merge-sorted-array) |
+| [0090-subsets-ii](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0090-subsets-ii) |
 | [0118-pascals-triangle](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0128-longest-consecutive-sequence) |
@@ -154,6 +155,7 @@
 ## Bit Manipulation
 |  |
 | ------- |
+| [0090-subsets-ii](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0090-subsets-ii) |
 | [0268-missing-number](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0287-find-the-duplicate-number) |
 ## Counting
@@ -205,4 +207,8 @@
 | [0021-merge-two-sorted-lists](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0021-merge-two-sorted-lists) |
 | [0206-reverse-linked-list](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0234-palindrome-linked-list) |
+## Backtracking
+|  |
+| ------- |
+| [0090-subsets-ii](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0090-subsets-ii) |
 <!---LeetCode Topics End-->
