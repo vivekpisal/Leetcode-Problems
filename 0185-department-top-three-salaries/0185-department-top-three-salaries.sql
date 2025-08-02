@@ -1,0 +1,2 @@
+# Write your MySQL query statement below
+select f.Department,f.Employee,f.Salary from (select d.name as Department ,e.name as Employee ,e.salary as Salary,dense_rank() over(partition by e.departmentId order by salary desc) as salpos from employee e inner join department d on e.departmentId = d.id) f where f.salpos <= 3; 
