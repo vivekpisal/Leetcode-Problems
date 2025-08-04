@@ -5,6 +5,7 @@
 |  |
 | ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0102-binary-tree-level-order-traversal) |
+| [0144-binary-tree-preorder-traversal](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0144-binary-tree-preorder-traversal) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -14,6 +15,7 @@
 |  |
 | ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0102-binary-tree-level-order-traversal) |
+| [0144-binary-tree-preorder-traversal](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0144-binary-tree-preorder-traversal) |
 ## Array
 |  |
 | ------- |
@@ -52,6 +54,7 @@
 ## Depth-First Search
 |  |
 | ------- |
+| [0144-binary-tree-preorder-traversal](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0144-binary-tree-preorder-traversal) |
 | [0200-number-of-islands](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0200-number-of-islands) |
 ## Union Find
 |  |
@@ -92,6 +95,7 @@
 ## Stack
 |  |
 | ------- |
+| [0144-binary-tree-preorder-traversal](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0144-binary-tree-preorder-traversal) |
 | [0234-palindrome-linked-list](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0234-palindrome-linked-list) |
 | [0496-next-greater-element-i](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0496-next-greater-element-i) |
 | [0739-daily-temperatures](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0739-daily-temperatures) |
