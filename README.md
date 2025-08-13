@@ -14,6 +14,7 @@
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0543-diameter-of-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0662-maximum-width-of-binary-tree) |
+| [0783-search-in-a-binary-search-tree](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0783-search-in-a-binary-search-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -36,6 +37,7 @@
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0543-diameter-of-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0662-maximum-width-of-binary-tree) |
+| [0783-search-in-a-binary-search-tree](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0783-search-in-a-binary-search-tree) |
 ## Array
 |  |
 | ------- |
@@ -256,4 +258,8 @@
 |  |
 | ------- |
 | [0185-department-top-three-salaries](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0185-department-top-three-salaries) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0783-search-in-a-binary-search-tree](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0783-search-in-a-binary-search-tree) |
 <!---LeetCode Topics End-->
