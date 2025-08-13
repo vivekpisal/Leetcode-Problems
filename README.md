@@ -11,6 +11,7 @@
 | [0104-maximum-depth-of-binary-tree](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0110-balanced-binary-tree](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0110-balanced-binary-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0144-binary-tree-preorder-traversal) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0543-diameter-of-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0662-maximum-width-of-binary-tree) |
 ## Breadth-First Search
@@ -32,6 +33,7 @@
 | [0104-maximum-depth-of-binary-tree](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0110-balanced-binary-tree](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0110-balanced-binary-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0144-binary-tree-preorder-traversal) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0543-diameter-of-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0662-maximum-width-of-binary-tree) |
 ## Array
@@ -78,6 +80,7 @@
 | [0110-balanced-binary-tree](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0110-balanced-binary-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0144-binary-tree-preorder-traversal) |
 | [0200-number-of-islands](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0200-number-of-islands) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0543-diameter-of-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0662-maximum-width-of-binary-tree) |
 ## Union Find
