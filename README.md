@@ -24,6 +24,7 @@
 | [0104-maximum-depth-of-binary-tree](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0200-number-of-islands](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0200-number-of-islands) |
 | [0662-maximum-width-of-binary-tree](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0662-maximum-width-of-binary-tree) |
+| [1036-rotting-oranges](https://github.com/vivekpisal/Leetcode-Problems/tree/master/1036-rotting-oranges) |
 ## Binary Tree
 |  |
 | ------- |
@@ -73,6 +74,7 @@
 | [0560-subarray-sum-equals-k](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0560-subarray-sum-equals-k) |
 | [0643-maximum-average-subarray-i](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0643-maximum-average-subarray-i) |
 | [0739-daily-temperatures](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0739-daily-temperatures) |
+| [1036-rotting-oranges](https://github.com/vivekpisal/Leetcode-Problems/tree/master/1036-rotting-oranges) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -96,6 +98,7 @@
 | [0048-rotate-image](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0048-rotate-image) |
 | [0074-search-a-2d-matrix](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0074-search-a-2d-matrix) |
 | [0200-number-of-islands](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0200-number-of-islands) |
+| [1036-rotting-oranges](https://github.com/vivekpisal/Leetcode-Problems/tree/master/1036-rotting-oranges) |
 ## Design
 |  |
 | ------- |
