@@ -54,6 +54,7 @@
 | [0053-maximum-subarray](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0053-maximum-subarray) |
 | [0074-search-a-2d-matrix](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0075-sort-colors) |
+| [0079-word-search](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0079-word-search) |
 | [0088-merge-sorted-array](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0088-merge-sorted-array) |
 | [0090-subsets-ii](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0090-subsets-ii) |
 | [0118-pascals-triangle](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0118-pascals-triangle) |
@@ -80,6 +81,7 @@
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0079-word-search) |
 | [0094-binary-tree-inorder-traversal](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0094-binary-tree-inorder-traversal) |
 | [0100-same-tree](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0104-maximum-depth-of-binary-tree) |
@@ -100,6 +102,7 @@
 | ------- |
 | [0048-rotate-image](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0048-rotate-image) |
 | [0074-search-a-2d-matrix](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0074-search-a-2d-matrix) |
+| [0079-word-search](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0200-number-of-islands) |
 | [1036-rotting-oranges](https://github.com/vivekpisal/Leetcode-Problems/tree/master/1036-rotting-oranges) |
 ## Design
@@ -214,6 +217,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0005-longest-palindromic-substring](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0005-longest-palindromic-substring) |
 | [0014-longest-common-prefix](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0014-longest-common-prefix) |
+| [0079-word-search](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0079-word-search) |
 | [0131-palindrome-partitioning](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0131-palindrome-partitioning) |
 ## Sliding Window
 |  |
@@ -259,6 +263,7 @@
 | [0039-combination-sum](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0046-permutations) |
+| [0079-word-search](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0131-palindrome-partitioning) |
 ## Database
