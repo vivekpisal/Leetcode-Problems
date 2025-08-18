@@ -170,6 +170,7 @@
 | [0005-longest-palindromic-substring](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0005-longest-palindromic-substring) |
 | [0015-3sum](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0015-3sum) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0061-rotate-list](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0061-rotate-list) |
 | [0075-sort-colors](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0088-merge-sorted-array) |
@@ -224,6 +225,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0005-longest-palindromic-substring](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0005-longest-palindromic-substring) |
 | [0014-longest-common-prefix](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0014-longest-common-prefix) |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0079-word-search](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0079-word-search) |
 | [0131-palindrome-partitioning](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0131-palindrome-partitioning) |
 | [0242-valid-anagram](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0242-valid-anagram) |
@@ -282,4 +284,8 @@
 |  |
 | ------- |
 | [0783-search-in-a-binary-search-tree](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0783-search-in-a-binary-search-tree) |
+## String Matching
+|  |
+| ------- |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 <!---LeetCode Topics End-->
