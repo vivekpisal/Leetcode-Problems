@@ -131,6 +131,7 @@
 | [0160-intersection-of-two-linked-lists](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0229-majority-element-ii) |
+| [0242-valid-anagram](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0268-missing-number) |
 | [0496-next-greater-element-i](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0496-next-greater-element-i) |
 | [0525-contiguous-array](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0525-contiguous-array) |
@@ -188,6 +189,7 @@
 | [0169-majority-element](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0215-kth-largest-element-in-an-array) |
 | [0229-majority-element-ii](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0229-majority-element-ii) |
+| [0242-valid-anagram](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0268-missing-number) |
 ## Math
 |  |
@@ -224,6 +226,7 @@
 | [0014-longest-common-prefix](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0014-longest-common-prefix) |
 | [0079-word-search](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0079-word-search) |
 | [0131-palindrome-partitioning](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0131-palindrome-partitioning) |
+| [0242-valid-anagram](https://github.com/vivekpisal/Leetcode-Problems/tree/master/0242-valid-anagram) |
 ## Sliding Window
 |  |
 | ------- |
